@@ -97,6 +97,7 @@ public class MenuMahasiswaProposal {
         Scene scene = new Scene(root);
         mainStage.setScene(scene);
         mainStage.show();
+        
     }
 
     @FXML
