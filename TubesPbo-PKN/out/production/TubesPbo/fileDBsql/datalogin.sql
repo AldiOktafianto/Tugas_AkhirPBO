@@ -55,7 +55,7 @@ CREATE TABLE `users` (
   `password` varchar(30) NOT NULL,
   `email` varchar(30) NOT NULL,
   `type` varchar(30) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE = MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
