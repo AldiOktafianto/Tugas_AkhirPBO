@@ -82,7 +82,7 @@ ALTER TABLE `datamahasiswa`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`user_id`);
-
+ 
 --
 -- AUTO_INCREMENT for dumped tables
 --
