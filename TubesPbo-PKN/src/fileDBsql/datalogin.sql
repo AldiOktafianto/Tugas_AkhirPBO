@@ -41,7 +41,7 @@ CREATE TABLE `datamahasiswa` (
 --
 
 INSERT INTO `datamahasiswa` (`idKel`, `anggotaKel`, `alamatKel`, `waktuAwal`, `waktuAkhir`, `namaFileCV`, `namaFilePorto`) VALUES
-(2, 'aku\nkamu\ndia\nmereka\n', 'dimana saja', '2021-06-01', '2021-06-30', 'Resume.pdf', 'Resume2.pdf');
+(2, 'Aldi\nDini\nhm\nElan\n', 'dimana ya', '2022-06-06', '2021-06-30', 'p.pdf', 'p2.pdf');
 
 -- --------------------------------------------------------
 
