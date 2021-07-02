@@ -71,7 +71,7 @@ public class MenuMahasiswaProposal {
     @FXML
     void uploadCV(ActionEvent event) {
         btn_UploadCV.setOnAction(event1 -> {
-            FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("PDF files (*.pdf)", "*.pdf");
+            FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("PDF files (*.pdf)","*.pdf");
             milih.getExtensionFilters().add(extFilter);
             File file = milih.showOpenDialog(btn_UploadCV.getParent().getScene().getWindow());
             if(file != null){
@@ -139,7 +139,7 @@ public class MenuMahasiswaProposal {
                     pst.execute();
 
                     JOptionPane.showMessageDialog(null, "Data telah disimpan");
-                } catch (Exception e) {
+                } catch (Exception e){
                     JOptionPane.showMessageDialog(null, "Data tidak disimpan");
                 }
             }
