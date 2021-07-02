@@ -11,7 +11,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class MenuMahasiswa {
+public class MenuMahasiswa{
 
     @FXML
     private AnchorPane loadingMenu;
@@ -40,7 +40,7 @@ public class MenuMahasiswa {
     }
 
     @FXML
-    void PengajuanProposal(ActionEvent event) throws IOException{
+    void PengajuanProposal(ActionEvent event) throws IOException {
         btn_pengajuanProposal.getScene().getWindow().hide();
         Parent root = FXMLLoader.load(getClass().getResource("../fxmlClass/MenuMahasiswaProposal.fxml"));
         Stage mainStage = new Stage();
@@ -50,13 +50,12 @@ public class MenuMahasiswa {
     }
 
     @FXML
-    void back(ActionEvent event) throws IOException{
+    void back(ActionEvent event) throws IOException {
         btn_back.getScene().getWindow().hide();
         Parent root = FXMLLoader.load(getClass().getResource("../fxmlClass/tampilanLogin.fxml"));
         Stage mainStage = new Stage();
         Scene scene = new Scene(root);
         mainStage.setScene(scene);
         mainStage.show();
-
     }
 }
