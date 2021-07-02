@@ -28,7 +28,7 @@
                   <Font name="System Bold" size="36.0" />
                </font>
             </Label>
-            <Button fx:id="btn_Approval" layoutX="61.0" layoutY="248.0" mnemonicParsing="false" onAction="#Approval" prefHeight="52.0" prefWidth="164.0" style="-fx-background-color: #ffd149; -fx-background-radius: 90;" text="Approval">
+            <Button fx:id="btn_Approval" layoutX="61.0" layoutY ="248.0" mnemonicParsing="false" onAction="#Approval" prefHeight="52.0" prefWidth="164.0" style="-fx-background-color: #ffd149; -fx-background-radius: 90;" text="Approval">
                <font>
                   <Font size="14.0" />
                </font>
