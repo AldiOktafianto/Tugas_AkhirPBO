@@ -160,20 +160,7 @@ public class ControllerLogin implements Initializable {
 
 
     public void add_users(ActionEvent event){
-        conn = mysqlconnect.ConnectDb();
-        String sql = "insert into users (username,password,type,email) values (?,?,?,?)";
-        try {
-            pst = conn.prepareStatement(sql);
-            pst.setString(1, txt_username_up.getText());
-            pst.setString(2, txt_password_up.getText());
-            pst.setString(3, type_up.getValue().toString());
-            pst.setString(4, email_up.getText());
-            pst.execute();
-
-            JOptionPane.showMessageDialog(null, "Data telah disimpan");
-        } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Data tidak disimpan");
-        }
+        
     }
 
 
