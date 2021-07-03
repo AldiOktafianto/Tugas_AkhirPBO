@@ -55,6 +55,9 @@ public class MenuAdminDataMah {
 
     @FXML
     void forward(ActionEvent event) {
+         if(btn_forward.isManaged()){
+
+        }
        
     }
 
