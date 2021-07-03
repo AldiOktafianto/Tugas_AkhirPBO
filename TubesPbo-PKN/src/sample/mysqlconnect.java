@@ -12,7 +12,7 @@ public class mysqlconnect {
             return conn;
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e);
-            return null;
+            
         }
 
     }
