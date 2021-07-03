@@ -7,11 +7,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="479.0" prefWidth="723.0" style="-fx-background-color: #ffa000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuAdminApproval">
-   <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c67100" height="75.0" layoutX="-4.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="727.0" />
-      <Button fx:id="btn_LihatData" layoutX="98.0" layoutY="229.0" mnemonicParsing="false" onAction="#LihatData" prefHeight="52.0" prefWidth="164.0" style="-fx-background-color: #ffd149; -fx-background-radius: 90;" text="Lihat Data Mahasiswa">
-         <font>
+
             <Font size="14.0" />
          </font>
       </Button>
