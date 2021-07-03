@@ -106,18 +106,7 @@ public class MenuMahasiswaProposal {
             FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("PDF files (*.pdf)", "*.pdf");
             milih.getExtensionFilters().add(extFilter);
             File file = milih.showOpenDialog(btn_UploadPortofolio.getParent().getScene().getWindow());
-            if(file != null){
-                tfPortofolio.setText(file.getPath());
-                String namaPorto = file.getName();
-                Path lokasiFilePorto = lokasi.resolve(namaPorto);
-                File writePorto = new File(String.valueOf(lokasiFilePorto));
-                try {
-                    Files.copy(file.toPath(), writePorto.toPath());
-                } catch (IOException e){
-                    e.printStackTrace();
-                }
-                tfPortofolio.setText(file.getName());
-            }
+            
         });
     }
 
