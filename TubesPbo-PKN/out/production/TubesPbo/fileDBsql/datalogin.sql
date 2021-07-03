@@ -49,13 +49,7 @@ INSERT INTO `datamahasiswa` (`idKel`, `anggotaKel`, `alamatKel`, `waktuAwal`, `w
 -- Table structure for table `users`
 --
 
-CREATE TABLE `users` (
-  `user_id` int(11) NOT NULL,
-  `username` varchar(30) NOT NULL,
-  `password` varchar(30) NOT NULL,
-  `email` varchar(30) NOT NULL,
-  `type` varchar(30) NOT NULL
-) ENGINE = MyISAM DEFAULT CHARSET=latin1;
+
 
 --
 -- Dumping data for table `users`
