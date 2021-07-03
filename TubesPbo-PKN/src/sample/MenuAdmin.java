@@ -37,6 +37,7 @@ public class MenuAdmin {
         Scene scene = new Scene(root);
         mainStage.setScene(scene);
         mainStage.show();
+        
     }
 
     @FXML
@@ -51,7 +52,12 @@ public class MenuAdmin {
 
     @FXML
     void back(ActionEvent event) throws IOException {
-        
+        btn_back.getScene().getWindow().hide();
+        Parent root = FXMLLoader.load(getClass().getResource("../fxmlClass/tampilanLogin.fxml"));
+        Stage mainStage = new Stage();
+        Scene scene = new Scene(root);
+        mainStage.setScene(scene);
+        mainStage.show();
 
 
     }
