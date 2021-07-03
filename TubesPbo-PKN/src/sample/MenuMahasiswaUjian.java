@@ -32,7 +32,11 @@ public class MenuMahasiswaUjian {
     void back(ActionEvent event) throws IOException {
         btn_back.getScene().getWindow().hide();
         Parent root = FXMLLoader.load(getClass().getResource("../fxmlClass/MenuMahasiswa.fxml"));
-       
+        Stage mainStage = new Stage();
+        Scene scene = new Scene(root);
+        mainStage.setScene(scene);
+        mainStage.show();
+
     }
 
     @FXML
