@@ -38,12 +38,7 @@
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button fx:id="btn_NilaiPKN" layoutX="507.0" layoutY="248.0" mnemonicParsing="false" onAction="#NilaiPKN" prefHeight="52.0" prefWidth="164.0" style="-fx-background-color: #ffd149; -fx-background-radius: 90;" text="Nilai PKN">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Button>
-            <Button fx:id="btn_back" layoutX="619.0" layoutY="447.0" mnemonicParsing="false" onAction="#back" prefHeight="34.0" prefWidth="85.0" style="-fx-background-color: #ffd149;" text="Kembali" />
+            
          </children>
       </AnchorPane>
    </children>
