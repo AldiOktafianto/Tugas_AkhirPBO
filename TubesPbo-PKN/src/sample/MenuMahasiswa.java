@@ -41,21 +41,10 @@ public class MenuMahasiswa{
 
     @FXML
     void PengajuanProposal(ActionEvent event) throws IOException {
-        btn_pengajuanProposal.getScene().getWindow().hide();
-        Parent root = FXMLLoader.load(getClass().getResource("../fxmlClass/MenuMahasiswaProposal.fxml"));
-        Stage mainStage = new Stage();
-        Scene scene = new Scene(root);
-        mainStage.setScene(scene);
-        mainStage.show();
+        
     }
 
     @FXML
     void back(ActionEvent event) throws IOException {
-        btn_back.getScene().getWindow().hide();
-        Parent root = FXMLLoader.load(getClass().getResource("../fxmlClass/tampilanLogin.fxml"));
-        Stage mainStage = new Stage();
-        Scene scene = new Scene(root);
-        mainStage.setScene(scene);
-        mainStage.show();
-    }
+        
 }
