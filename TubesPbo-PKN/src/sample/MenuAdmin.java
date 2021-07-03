@@ -31,7 +31,12 @@ public class MenuAdmin {
 
     @FXML
     void Approval(ActionEvent event) throws IOException {
-        
+        btn_Approval.getScene().getWindow().hide();
+        Parent root = FXMLLoader.load(getClass().getResource("../fxmlClass/MenuAdminApproval.fxml"));
+        Stage mainStage = new Stage();
+        Scene scene = new Scene(root);
+        mainStage.setScene(scene);
+        mainStage.show();
     }
 
     @FXML
